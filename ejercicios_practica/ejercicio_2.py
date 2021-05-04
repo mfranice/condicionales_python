@@ -42,11 +42,11 @@ else:
 # Imprima en pantalla según corresponda
 
 if texto_1 [0] > texto_2[0]:
-    print('La primera letra de la primera palabra ingresada ({}) es mayor que la de la segunda ({})'.format(texto_1,texto_2))
+    print('La primera letra de la primera palabra ingresada ({}) es mayor que la de la segunda ({})'.format(texto_1[0], texto_2[0]))
 elif texto_1 [0] < texto_2 [0]:
-    print('La primera letra de la segunda palabra ingresada ({}) es mayor que la de la primera ({})'.format(texto_2,texto_1)) 
+    print('La primera letra de la segunda palabra ingresada ({}) es mayor que la de la primera ({})'.format(texto_2[0], texto_1[0])) 
 else:
-    print('Las primeras letras de ambas palabras ingresadas ({} y {}) son iguales'.format(texto_1,texto_2))
+    print('Las primeras letras de ambas palabras ingresadas ({} y {}) son iguales'.format(texto_1[0],texto_2[0]))
 
 
 copia_texto_1 = texto_1  # Copia de la variable texto_1
