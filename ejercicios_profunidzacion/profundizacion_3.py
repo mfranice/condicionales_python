@@ -26,3 +26,26 @@ En cada caso imprimir en pantalla el resultado
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+temperatura_1 = float(input('Ingrese la primera temperatura en grados centígrados:\n'))
+temperatura_2 = float(input('Ingrese la segunda temperatura en grados centígrados:\n'))
+temperatura_3 = float(input('Ingrese la tercera temperatura en grados centígrados:\n'))
+
+if temperatura_1 > temperatura_2 and temperatura_1 > temperatura_3:
+    print('La máxima temperatura ingresada es la temperatura 1:', temperatura_1)
+elif temperatura_2 > temperatura_1 and temperatura_2 > temperatura_3:
+    print('La máxima temperatura ingresada es la temperatura 2:', temperatura_2)
+else:
+    print('La máxima temperatura ingresada es la temperatura 3:', temperatura_3)
+
+
+if temperatura_1 < temperatura_2 and temperatura_1 < temperatura_3:
+    print('La mínima temperatura ingresada es la temperatura 1:', temperatura_1) 
+elif temperatura_2 < temperatura_1 and temperatura_2 < temperatura_3:
+    print('La mínima temperatura ingresada es la temperatura 1:', temperatura_2)
+else:
+    print('La mínima temperatura ingresada es la temperatura 1:', temperatura_3)
+
+
+temp_promedio = (temperatura_1 + temperatura_2 + temperatura_3) / 3
+print('El promedio de las temperaturas ingresadas es:', temp_promedio)

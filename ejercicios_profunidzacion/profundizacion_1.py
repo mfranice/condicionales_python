@@ -22,3 +22,15 @@ si el resultado es positivo, negativo o cero.
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+numero_1 = float(input('Ingrese el minuendo:\n'))
+numero_2 = float(input('Ingrese el substraendo:\n'))
+
+resultado = numero_1 - numero_2
+
+if resultado > 0:
+    print('El resultado ({}) de la operación es positivo'.format(resultado))
+elif resultado == 0:
+    print('El resultado ({}) de la operación es cero'.format(resultado))
+else:
+    print('El resultado ({}) de la operación es negativo'.format(resultado))

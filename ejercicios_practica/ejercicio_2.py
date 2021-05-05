@@ -24,7 +24,7 @@ if texto_1 > texto_2:
 elif texto_1 < texto_2:
     print('La segunda palabra ingresada ({}) es mayor (alfabeticamente) que la primera ({})'.format(texto_2,texto_1)) 
 else:
-    print('Ambas palabras ingresadas ({}) son iguales'.format(texto_1,texto_2))
+    print('Ambas palabras ingresadas ({}) son iguales'.format(texto_1))
 
 # Compare cual de las dos palabras tiene mayor
 # cantidad de letras

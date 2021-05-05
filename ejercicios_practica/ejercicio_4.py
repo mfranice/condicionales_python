@@ -44,3 +44,9 @@ else:
 # Esta pregunta estará repetida en el Campus para que puedan
 # responder.
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
+
+'''
+La razón por la que el texto '7' es mayor que el texto '5' es que el ordenamiento de
+menor o mayor alfabeticamente que el programa realiza ve que el texto 7 es el caracter ASCII
+55 es mayor que el '5' que es el caracter ASCII 53.
+'''
